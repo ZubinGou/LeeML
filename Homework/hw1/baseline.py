@@ -65,6 +65,9 @@ learning_rate = 120 # 120->5.680 125->5.68093  100->5.6809
 iter_time = 20000
 adagrad = np.zeros([dim, 1])
 eps = 0.0000000001
+
+# 19950:5.680932254430758
+
 for t in range(iter_time):
     loss = np.sqrt(np.sum(np.power(np.dot(x, w) - y, 2)) / 471 / 12) # rmse
     if t%50 == 0:
