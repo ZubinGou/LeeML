@@ -171,6 +171,14 @@ validation set error最小时停下。
 - dropout是一个终极的ensemble(训练多个模型取平均，以中和误差)
 
 # L10 CNN
+- why  CNN for Image
+  - some patterns are small -> convolution
+  - same patterns appear in different regions -> convolutionjj
+  - subsampling will not change the object -> Max Pooling
+- CNN架构
+  - (Convolution -> Max Pooling) * 多次 -> Flatten -> Fully Connected Feedforward network
+- 简化DNN，省去不必要的连接、weight sharing
+- 图形变换：在CNN前面加一个network，对特定部分缩放、旋转。
 
 # L11 Why Deep?
 ## Deep -> Modularization
@@ -194,3 +202,5 @@ validation set error最小时停下。
 - Speech Recognition: 步骤大都是hand-crafted，而使用DNN可以learn all functions
   - Google一篇paper：input target main声音讯号，output文字，打平了Fourier transform
 - Image Recognition
+
+# L12

@@ -36,4 +36,3 @@ model.fit(x_train, y_train, batch_size=100, epochs=20)
 result = model.evaluate(x_test, y_test)
 
 print('TEST ACC: ', result[1])
-
