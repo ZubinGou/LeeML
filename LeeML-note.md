@@ -203,4 +203,5 @@ validation set error最小时停下。
   - Google一篇paper：input target main声音讯号，output文字，打平了Fourier transform
 - Image Recognition
 
-# L12
+# 补充课 GNN
+ 
